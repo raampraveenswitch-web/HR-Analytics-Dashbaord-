@@ -1,6 +1,5 @@
 [server]
-address = "localhost"        # local-only: never bind to a public interface by default
-headless = false
+headless = true
 enableXsrfProtection = true
 maxUploadSize = 200
 
