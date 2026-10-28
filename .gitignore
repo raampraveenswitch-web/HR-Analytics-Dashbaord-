@@ -1,0 +1,19 @@
+# Confidential data — never commit
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+data/
+uploads/
+logs/
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+# Streamlit secrets
+.streamlit/secrets.toml
+.env
+# Allow brand assets
+!assets/*.png
